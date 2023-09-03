@@ -11,7 +11,7 @@ import java.net.URL;
 public class Main {
     public static void main(String[] args) throws IOException {
 
-        String urlString = "https://api.chucknorris.io/jokes/random";
+        String urlString = "https://official-joke-api.appspot.com/random_joke";
 
         URL url = new URL(urlString);
 
